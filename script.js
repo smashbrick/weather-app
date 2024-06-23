@@ -22,13 +22,13 @@ async function response(country) {
 	} else {
 		//Assigning values
 		degree.innerHTML = `${Math.trunc(data.main.temp)}&#176;`;
-		humidity.innerHTML = data.main.humidity;
+		humidity.innerHTML = `${data.main.humidity}%`;
 		weather.innerHTML = data.weather[0].main;
 		windSpeed.innerHTML = `${data.wind.speed} km/h`;
 		weatherImage.src = `./images/${weather.innerHTML}.png`;
 
-		weatherBox.classList.remove("hidden");
 		errorBox.classList.add("hidden");
+		weatherBox.classList.remove("hidden");
 	}
 }
 

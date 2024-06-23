@@ -23,7 +23,6 @@ html {
 		.container {
 			position: relative;
 			width: 40rem;
-			// transition: height 1s opacity 2s;
 
 			backdrop-filter: blur(50px);
 			outline: 2px solid rgba(255, 255, 255, 0.2);
@@ -35,6 +34,8 @@ html {
 				text-align: center;
 				justify-content: center;
 				flex-direction: column;
+				height: 36rem;
+				transition: height 0.3s, opacity 1s;
 			}
 			#weather-box {
 				padding: 1rem;
