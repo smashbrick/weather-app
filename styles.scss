@@ -35,7 +35,7 @@ html {
 				justify-content: center;
 				flex-direction: column;
 			}
-			.weather-box {
+			#weather-box {
 				padding: 1rem;
 				display: flex;
 				align-items: center;
@@ -43,7 +43,7 @@ html {
 				flex-direction: column;
 				text-align: center;
 				color: #fff;
-				height: 35rem;
+				height: 45rem;
 				.temp {
 					.weather-image {
 						width: 15rem;

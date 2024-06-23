@@ -23,38 +23,34 @@
 		<div class="container">
 			<div class="search-box">
 				<ion-icon name="location-outline" class="location-icon"></ion-icon>
-				<input type="text" placeholder="Enter your location!" />
-				<button class="bx bx-search">
+				<input id="search-bar" type="text" placeholder="Enter your location!" />
+				<button id="search-btn">
 					<ion-icon name="search-outline" class="search-icon"></ion-icon>
 				</button>
 			</div>
 			<div>
-				<div class="weather-box hidden">
+				<div class="hidden" id="weather-box">
 					<div class="temp">
-						<img
-							class="weather-image"
-							src="./images/images/clouds.png"
-							alt="Weather cloud"
-						/>
+						<img id="weather-image" src="" />
 						<div class="temp-info">
-							<h2>11°C</h2>
-							<h2>Light Rain</h2>
+							<h2 id="degree">Loading</h2>
+							<h2 id="weather">Light Rain</h2>
 						</div>
 					</div>
 					<div class="additional-info">
 						<div class="humidity">
 							<img src="./images/icons8-humidity-50.png" alt="" />
-							<h3>
-								71% <br />
-								Humidity
-							</h3>
+							<div>
+								<h3 id="humidity">Loading</h3>
+								<h3>Humidity</h3>
+							</div>
 						</div>
 						<div class="wind-speed">
 							<img src="./images/icons8-wind-50.png" alt="" />
-							<h3>
-								6km/h <br />
-								Wind Speed
-							</h3>
+							<div>
+								<h3 id="wind-speed">Loading</h3>
+								<h3>Wind speed</h3>
+							</div>
 						</div>
 					</div>
 				</div>
