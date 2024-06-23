@@ -23,6 +23,7 @@ html {
 		.container {
 			position: relative;
 			width: 40rem;
+			// transition: height 1s opacity 2s;
 
 			backdrop-filter: blur(50px);
 			outline: 2px solid rgba(255, 255, 255, 0.2);
@@ -43,7 +44,9 @@ html {
 				flex-direction: column;
 				text-align: center;
 				color: #fff;
+				transition: height 0.3s, opacity 1s;
 				height: 45rem;
+
 				.temp {
 					.weather-image {
 						width: 15rem;
@@ -52,7 +55,7 @@ html {
 					.temp-info {
 						h2 {
 							&:first-child {
-								font-size: 3.2rem;
+								font-size: 3.6rem;
 								font-weight: bold;
 							}
 						}
@@ -62,6 +65,7 @@ html {
 					display: flex;
 					justify-content: space-between;
 					width: 100%;
+					font-size: 1.4rem;
 					.humidity,
 					.wind-speed {
 						align-items: center;
