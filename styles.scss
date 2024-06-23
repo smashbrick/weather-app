@@ -20,14 +20,15 @@ html {
 		align-items: center;
 		min-height: 100vh;
 		justify-content: center;
+
 		.container {
 			position: relative;
 			width: 40rem;
-
 			backdrop-filter: blur(50px);
 			outline: 2px solid rgba(255, 255, 255, 0.2);
 			border-radius: 16px;
 			padding: 2rem;
+
 			.not-found-box {
 				display: flex;
 				align-items: center;
@@ -129,5 +130,14 @@ html {
 				}
 			}
 		}
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px) {
+	html body .container {
+		width: 35rem;
+	}
+	html body .container #weather-box .additional-info {
+		font-size: 1.2rem;
 	}
 }
