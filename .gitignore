@@ -2,6 +2,7 @@ css/
 .DS_Store
 package-lock.json
 images/.DS_Store
+node_modules
 
 .DS_Store
 echo ".DS_Store" >> ~/.gitignore_global
